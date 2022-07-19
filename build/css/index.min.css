@@ -4120,6 +4120,10 @@
 .header__phone {
   display: none;
 }
+.header__phone a {
+  text-decoration: none;
+  color: #fff;
+}
 @media (min-width: 768px) {
   .header {
     padding: 37px 0 31px;
