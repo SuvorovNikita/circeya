@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html',{ "title":"Главная" })
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/index.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+  <title>Сirceya</title>
+</head>
+
   <body>
     <div class="wrapper">
-      @@include('html/header.html',{})
+        <header class="header">
+    <div class="container-fluid">
+      <div class="header__content">
+        <a href="http://" class="header__icon">
+          <img class="header__logo" src="../img/logo.svg" alt="logo" />
+        </a>
+        <div class="header__phone">+7 (495) 495-49-54</div>
+        <a class="header__phone-logo">
+          <img src="../img/phone-logo.svg" alt="logo">
+        </a>
+      </div>
+    </div>
+</div>
+
       <main class="main">
         <div class="container">
           <div class="row">
@@ -73,7 +94,12 @@
           </div>
         </div>
       </main>
-      @@include('html/footer.html',{})
+      <footer class="footer">
+  <div class="contaiter-fluid">
+    <p class="footer__text">© TEST, 1022–2022</p>
+  </div>
+</footer>
+
     </div>
 
     <script src="js/app.min.js"></script>
